@@ -196,12 +196,12 @@
     <hal format="hidl">
         <name>android.hardware.power</name>
         <transport>hwbinder</transport>
-        <version>1.1</version>
+        <version>1.2</version>
         <interface>
             <name>IPower</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.1::IPower/default</fqname>
+        <fqname>@1.2::IPower/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.radio</name>
@@ -486,16 +486,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IGoodixBiometricsFingerprint/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.lineage.power</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ILineagePower</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ILineagePower/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.lineage.trust</name>
