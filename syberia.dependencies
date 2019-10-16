@@ -1,10 +1,48 @@
 [
  {
-   "repository": "android_kernel_xiaomi_rosy",
-   "target_path": "kernel/xiaomi/rosy"
+   "repository" : "LineageOS/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings",
+   "branch"     : "lineage-16.0"
  },
  {
-   "repository": "android_packages_resources_devicesettings",
-   "target_path": "packages/resources/devicesettings"
- }
+   "repository" : "SOVIET-ANDROID/aarch64-linux-gnu-8.x",
+   "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.x",
+   "branch"     : "master"
+ }, 
+ {
+   "repository" : "SOVIET-ANDROID/proprietary_vendor_xiaomi",
+   "target_path": "vendor/xiaomi",
+   "branch"     : "9.0"
+ },
+ {
+   "repository" : "syberia-project/platform_hardware_qcom_audio",
+   "target_path": "hardware/qcom/audio-caf/msm8996",
+   "branch"     : "9.0-caf-8996"
+ },
+ {
+   "repository" : "syberia-project/platform_hardware_qcom_display",
+   "target_path": "hardware/qcom/display-caf/msm8996",
+   "branch"     : "9.0-caf-8996"
+ },
+ {
+   "repository" : "syberia-project/platform_hardware_qcom_media",
+   "target_path": "hardware/qcom/media-caf/msm8996",
+   "branch"     : "9.0-caf-8996"
+  },
+  
+   {
+   "repository" : "vo-1/android_device_xiaomi_rosy",
+   "target_path": "device/xiaomi/rosy",
+   "branch"     : "syberia-p"
+ },
+ {
+   "repository" : "vo-1/android_vendor_xiaomi_rosy",
+   "target_path": "vendor/xiaomi/rosy",
+   "branch"     : "lineage-16.0"
+ },
+ {
+   "repository" : "vo-1/android_kernel_xiaomi_rosy",
+   "target_path": "kernel/xiaomi/rosy",
+   "branch"     : "p-318-caf"
+  },
 ]
