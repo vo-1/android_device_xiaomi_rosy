@@ -20,6 +20,9 @@ $(call inherit-product, vendor/xiaomi/rosy/rosy-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
@@ -134,9 +137,6 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
-# Dexpreopt - SystemUI
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUIGoogle
 
 # Display
 PRODUCT_PACKAGES += \
