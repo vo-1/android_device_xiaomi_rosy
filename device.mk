@@ -175,10 +175,6 @@ PRODUCT_PACKAGES += \
     ethertypes \
     libebtc
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_rosy
-
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
